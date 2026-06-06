@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "purchase_order": "PASS",
+    "partial_receipt": "PASS",
+    "pending_po_balance": "PASS",
+    "quality_inspection": "PASS",
+    "rm_release": "PASS",
+    "stock_ledger": "PASS",
+    "po_balance": "PASS"
+  },
+  "item_code": "JE25 OG",
+  "po_qty": 1000.0,
+  "received_qty": 700.0,
+  "supplier": "Test RM Supplier",
+  "purchase_order": "PUR-ORD-2026-00004",
+  "purchase_receipt": "MAT-PRE-2026-00015",
+  "batch_no": "RM-partial-receipt-JE25-OG-20260315142938",
+  "quality_inspection": "MAT-QA-2026-00073",
+  "rm_inward_validation": "4eafdoe9d6",
+  "rm_qc_decision": "4eaan4n1cf",
+  "rm_release_note": "4eap5hhjdc",
+  "validations": {
+    "purchase_order_status": {
+      "status": "To Receive and Bill",
+      "per_received": 70.0,
+      "ordered_qty": 1000.0,
+      "received_qty": 700.0,
+      "pending_qty": 300.0
+    },
+    "quality_inspection": {
+      "reference_type": "Purchase Receipt",
+      "reference_name": "MAT-PRE-2026-00015",
+      "status": "Accepted"
+    },
+    "rm_release": {
+      "item_code": "JE25 OG",
+      "batch_no": "RM-partial-receipt-JE25-OG-20260315142938",
+      "release_qty": 700.0,
+      "status": "Released"
+    },
+    "purchase_receipt_stock_ledger": [
+      {
+        "item_code": "JE25 OG",
+        "warehouse": "Stores - CPPL",
+        "batch_no": null,
+        "actual_qty": 700.0,
+        "qty_after_transaction": 3700.0,
+        "incoming_rate": 1.0,
+        "valuation_rate": 1.0,
+        "stock_value_difference": 700.0
+      }
+    ]
+  }
+}

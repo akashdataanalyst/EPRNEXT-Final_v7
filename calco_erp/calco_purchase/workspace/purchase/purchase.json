@@ -1,0 +1,48 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\":\"purchase-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Purchase</b></span>\",\"col\":12}},{\"id\":\"purchase-rm-planning-dashboard\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Planning Dashboard\",\"col\":4}},{\"id\":\"purchase-material-traceability\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Material Traceability\",\"col\":4}},{\"id\":\"purchase-rm-planning-parameter\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Planning Parameter\",\"col\":4}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "shopping-cart",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Purchase",
+ "links": [],
+ "module": "Calco Purchase",
+ "name": "Purchase",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "RM Planning Dashboard",
+   "link_to": "rm-planning-dashboard",
+   "type": "Page"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Material Traceability",
+   "link_to": "material-traceability",
+   "type": "Page"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "RM Planning Parameter",
+   "link_to": "RM Planning Parameter",
+   "type": "DocType"
+  }
+ ],
+ "title": "Purchase",
+ "type": "Workspace"
+}

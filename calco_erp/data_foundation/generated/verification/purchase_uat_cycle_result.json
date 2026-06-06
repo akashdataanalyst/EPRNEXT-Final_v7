@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "purchase_order": "PASS",
+    "purchase_receipt": "PASS",
+    "batch_creation": "PASS",
+    "rm_quality_inspection": "PASS",
+    "rm_release": "PASS",
+    "rm_release_gate_before_production_use": "PASS",
+    "purchase_invoice": "PASS",
+    "payment_entry": "PASS"
+  },
+  "item_code": "JE25 OG",
+  "qty": 1000.0,
+  "supplier": "Test RM Supplier",
+  "purchase_order": "PUR-ORD-2026-00003",
+  "purchase_receipt": "MAT-PRE-2026-00012",
+  "batch_no": "RM-purchase-uat-JE25-OG-20260315141552",
+  "quality_inspection": "MAT-QA-2026-00071",
+  "rm_inward_validations": [
+    "sc83eg3hef"
+  ],
+  "rm_qc_decisions": [
+    "sc9a5jrg1g"
+  ],
+  "rm_release_notes": [
+    "sc952uc0kc"
+  ],
+  "purchase_invoice": "ACC-PINV-2026-00003",
+  "payment_entry": "ACC-PAY-2026-00003",
+  "validations": {
+    "stock_ledger_purchase_receipt": [
+      {
+        "item_code": "JE25 OG",
+        "warehouse": "Stores - CPPL",
+        "batch_no": null,
+        "actual_qty": 1000.0,
+        "qty_after_transaction": 3000.0,
+        "incoming_rate": 1.0,
+        "valuation_rate": 1.0,
+        "stock_value_difference": 1000.0
+      }
+    ],
+    "batch_exists": true,
+    "quality_inspection_link": {
+      "reference_type": "Purchase Receipt",
+      "reference_name": "MAT-PRE-2026-00012",
+      "status": "Accepted"
+    },
+    "rm_release_gate_before_production_use": {
+      "blocked": true,
+      "message": "Traceback (most recent call last):\n  File \"apps/calco_erp/calco_erp/calco_erp/data_foundation/purchase_uat_cycle.py\", line 234, in validate_rm_release_gate\n    se.submit()\n    ~~~~~~~~~^^\n  File \"apps/frappe/frappe/utils/typing_validations.py\", line 36, in wrapper\n    return func(*args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1270, in submit\n    return self._submit()\n           ~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 1251, in _submit\n    return self.save()\n           ~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 518, in save\n    return self._save(*args, **kwargs)\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"apps/frappe/frappe/model/document.py\", line 554, in _save\n    self.run_before_save_methods()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 1336, in run_before_save_methods\n    self.run_method(\"before_submit\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"apps/frappe/frappe/model/document.py\", line 1181, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1578, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1560, in runner\n    add_to_return_value(self, f(self, method, *args, **kwargs))\n                              ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"apps/calco_erp/calco_erp/calco_erp/utils/dependencies.py\", line 104, in validate_stock_entry_chain\n    frappe.throw(\n    ~~~~~~~~~~~~^\n        _(\"Released RM batch is missing for item {0}, batch {1}.\").format(\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n            row.item_code, batch_no\n            ^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"apps/frappe/frappe/utils/messages.py\", line 159, in throw\n    msgprint(\n    ~~~~~~~~^\n    \tmsg,\n     ^^^^\n    ...<7 lines>...\n    \tallow_dangerous_html=allow_dangerous_html,\n     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"apps/frappe/frappe/utils/messages.py\", line 118, in msgprint\n    _raise_exception()\n    ~~~~~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/utils/messages.py\", line 59, in _raise_exception\n    raise exc\nfrappe.exceptions.ValidationError: Released RM batch is missing for item JE25 OG, batch RM-purchase-uat-JE25-OG-20260315141552.\n"
+    },
+    "purchase_invoice_link_to_receipt": "MAT-PRE-2026-00012",
+    "purchase_invoice_status": {
+      "status": "Paid",
+      "outstanding_amount": 0.0,
+      "grand_total": 1000.0
+    }
+  }
+}

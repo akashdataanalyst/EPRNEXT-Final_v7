@@ -1,0 +1,15 @@
+{
+  "rm_inventory_rows": 998,
+  "fg_inventory_rows": 1180,
+  "formulation_rows": 13172,
+  "unique_rm_codes": 275,
+  "unique_fg_codes": 1096,
+  "valid_bom_headers": 499,
+  "valid_bom_items": 3621,
+  "duplicate_fg_codes": 73,
+  "duplicate_rm_codes": 0,
+  "missing_fg_references": 1112,
+  "missing_rm_references": 6187,
+  "invalid_formulation_values": 6347,
+  "bom_total_mismatches": 427
+}

@@ -1,0 +1,5 @@
+calco_erp.patches.v0_0_1.expose_production_workspace
+calco_erp.patches.v0_0_2.create_maintenance_ticket_workflow
+calco_erp.patches.v0_0_3.populate_maintenance_workspace
+calco_erp.patches.v0_0_4.setup_maintenance_master_data
+calco_erp.patches.v0_0_6.sync_quality_workspace

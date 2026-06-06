@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "purchase_receipt": "PASS",
+    "failed_qc": "PASS",
+    "rm_cannot_be_used": "PASS",
+    "purchase_return": "PASS",
+    "debit_note": "PASS",
+    "stock_ledger_impact": "PASS",
+    "supplier_balance_impact": "PASS"
+  },
+  "item_code": "JE25 OG",
+  "qty": 200.0,
+  "supplier": "Test RM Supplier",
+  "purchase_receipt": "MAT-PRE-2026-00013",
+  "batch_no": "RM-supplier-reject-JE25-OG-20260315142443",
+  "quality_inspection": "MAT-QA-2026-00072",
+  "rm_inward_validation": "1iaqd5mkus",
+  "rm_qc_decision": "1ibga4s0hb",
+  "purchase_return": "MAT-PRE-2026-00014",
+  "debit_note": "ACC-PINV-2026-00004",
+  "validations": {
+    "purchase_receipt_stock_ledger": [
+      {
+        "item_code": "JE25 OG",
+        "warehouse": "Stores - CPPL",
+        "batch_no": null,
+        "actual_qty": 200.0,
+        "qty_after_transaction": 3200.0,
+        "incoming_rate": 1.0,
+        "valuation_rate": 1.0,
+        "stock_value_difference": 200.0
+      }
+    ],
+    "purchase_return_stock_ledger": [
+      {
+        "item_code": "JE25 OG",
+        "warehouse": "Stores - CPPL",
+        "batch_no": null,
+        "actual_qty": -200.0,
+        "qty_after_transaction": 3000.0,
+        "incoming_rate": 0.0,
+        "valuation_rate": 1.0,
+        "stock_value_difference": -200.0
+      }
+    ],
+    "quality_inspection": {
+      "reference_type": "Purchase Receipt",
+      "reference_name": "MAT-PRE-2026-00013",
+      "status": "Rejected"
+    },
+    "rm_qc_decision": {
+      "decision": "Rejected",
+      "status": "Rejected",
+      "docstatus": 1
+    },
+    "rm_release_exists": false,
+    "rm_use_block": {
+      "blocked": true,
+      "message": "Traceback (most recent call last):\n  File \"apps/calco_erp/calco_erp/calco_erp/data_foundation/supplier_rejection_uat.py\", line 188, in validate_rm_cannot_be_used\n    se.submit()\n    ~~~~~~~~~^^\n  File \"apps/frappe/frappe/utils/typing_validations.py\", line 36, in wrapper\n    return func(*args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1270, in submit\n    return self._submit()\n           ~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 1251, in _submit\n    return self.save()\n           ~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 518, in save\n    return self._save(*args, **kwargs)\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"apps/frappe/frappe/model/document.py\", line 554, in _save\n    self.run_before_save_methods()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/model/document.py\", line 1336, in run_before_save_methods\n    self.run_method(\"before_submit\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"apps/frappe/frappe/model/document.py\", line 1181, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1578, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"apps/frappe/frappe/model/document.py\", line 1560, in runner\n    add_to_return_value(self, f(self, method, *args, **kwargs))\n                              ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"apps/calco_erp/calco_erp/calco_erp/utils/dependencies.py\", line 104, in validate_stock_entry_chain\n    frappe.throw(\n    ~~~~~~~~~~~~^\n        _(\"Released RM batch is missing for item {0}, batch {1}.\").format(\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n            row.item_code, batch_no\n            ^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"apps/frappe/frappe/utils/messages.py\", line 159, in throw\n    msgprint(\n    ~~~~~~~~^\n    \tmsg,\n     ^^^^\n    ...<7 lines>...\n    \tallow_dangerous_html=allow_dangerous_html,\n     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"apps/frappe/frappe/utils/messages.py\", line 118, in msgprint\n    _raise_exception()\n    ~~~~~~~~~~~~~~~~^^\n  File \"apps/frappe/frappe/utils/messages.py\", line 59, in _raise_exception\n    raise exc\nfrappe.exceptions.ValidationError: Released RM batch is missing for item JE25 OG, batch RM-supplier-reject-JE25-OG-20260315142443.\n"
+    },
+    "debit_note_status": {
+      "status": "Return",
+      "grand_total": -200.0,
+      "outstanding_amount": -200.0,
+      "is_return": 1,
+      "return_against": null
+    },
+    "debit_note_gl_entries": [
+      {
+        "account": "Creditors - CPPL",
+        "party": "Test RM Supplier",
+        "debit": 200.0,
+        "credit": 0.0,
+        "against": "Stock Received But Not Billed - CPPL",
+        "remarks": "Against Supplier Invoice CALCO-DN-JE25-OG-20260315142444 dated 15-03-2026"
+      }
+    ]
+  }
+}

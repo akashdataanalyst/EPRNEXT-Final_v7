@@ -1,0 +1,276 @@
+item_code,item_name,item_group,stock_uom,is_stock_item,include_item_in_manufacturing,valuation_method,has_batch_no,create_new_batch,inspection_required_before_purchase,inspection_required_before_delivery,allow_alternative_item,disabled,description,quality_template
+711M004,"711M004 , Nylon 6 Granules",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,51665.75,Calco Incoming RM QC
+H8202NLB,"H8202NLB, 2004, BE3270, 2700, S2700, HE2700",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,87127.4234,Calco Incoming RM QC
+L08XM,"L08XM, TH6085, 1084",Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,58323.6808,Calco Incoming RM QC
+A45,A45/EP4401 BRIGHT A GRADE(ZigSheng)/YN2700(Sinchem),Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,5688.27,Calco Incoming RM QC
+G568,"568H, T43N, ECS10~4.5~T435N,123D, T435TM",Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,82314.75,Calco Incoming RM QC
+P00010,Paper Sticker 4 x 2,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+WX,Wx,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,22983.275,Calco Incoming RM QC
+L10XM,1100-211M,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,54950.962,Calco Incoming RM QC
+G534,"534 , 187H/R, T436 H, SG272,",Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,29499,Calco Incoming RM QC
+KEMOLIT SL4,Kemolit SL4,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,1155,Calco Incoming RM QC
+JE25,"JE25 / 2004 / J2500 / 3245, BE3250",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00009,Liner 52 gsm,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+KEMOLIT KF4,Kemolit KF4,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,7107.5,Calco Incoming RM QC
+711M006BK,"711M006Bk, Nylon 6 black",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,22611.975,Calco Incoming RM QC
+721M001,721M001,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,9319.8,Calco Incoming RM QC
+AD404,JLS/Shandong Haiwang/Weidong/Novista(MCA 25),Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,4020,Calco Incoming RM QC
+B-72,B-72,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,9680,Calco Incoming RM QC
+L07XM,L08XM,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M006N,711M006N,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,45852.1525,Calco Incoming RM QC
+P00001,Paper Laminated -PA6 with liner,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M006SB,711M006SB,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,829.5,Calco Incoming RM QC
+PE5302,PE5302,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,5157.75,Calco Incoming RM QC
+AD411,FR 4140R rPA,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,2800,Calco Incoming RM QC
+P00004,Woven Bags-PP,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+QH1200,QH1200,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P080M,P080M,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,4266,Calco Incoming RM QC
+P00003,Paper Laminated -PBT with liner,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00008,Alumunium Bags-Local,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD409,Brominated Epoxy FR 6000/ BEFR K25/CXB 3000H/B701,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,1712,Calco Incoming RM QC
+M12RR,M12RR / M12RR1,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,11284.93,Calco Incoming RM QC
+721M004,721M004,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD414,FR 5240R PBT,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,4141,Calco Incoming RM QC
+G508,"508, CS/147/A/14P14MM, ECER13-4.0-925 PP",Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,713,Calco Incoming RM QC
+P00007,Paper Laminated -PA6 without Liner,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+JEMB,"JEMB, HY2000A, BL3200, J2000, B208AE",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,7990.5,Calco Incoming RM QC
+AD201,"E131, N1493, Zebond 961, Adibond 2494,",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,517.5,Calco Incoming RM QC
+M1000R,"PC1003R, M1000R ,PC RESIN LT - 1100, POLY Carbonate 10MFI",Polymer PC,Kg,1,1,Moving Average,1,0,1,0,0,0,25239.25,Calco Incoming RM QC
+PE0800,PE0800,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,852,Calco Incoming RM QC
+PT02,HDS,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,30,Calco Incoming RM QC
+L/OLD,L/OLD,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,5242.5,Calco Incoming RM QC
+JE25 OG,"JE25 OG, H-85 Grade , H-95 Grade , Nylon 6 (Widespec) MBM-EX-GYL/0000325193",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,25688.75,Calco Incoming RM QC
+M2407,M2407 / PC Crush,Polymer PC,Kg,1,1,Moving Average,1,0,1,0,0,0,300,Calco Incoming RM QC
+AD402,Sb2O3,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,576,Calco Incoming RM QC
+K102A,Translink 445,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00002,Paper Laminated -PA66 with Liner,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+H350FG,H350FG/1350YG/3155,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,1506.5,Calco Incoming RM QC
+PE0570,PE0570,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00005,Radici-Packing Bags,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD301,"Finawax-C, Adwil wax c, Qualiwax c",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,1042.7,Calco Incoming RM QC
+PMX,Pmx,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,1805.5,Calco Incoming RM QC
+721M003,721M003,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,17701.15,Calco Incoming RM QC
+PT01,"KA100, R6658, R104",Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,2683.244,Calco Incoming RM QC
+730M001,G5761K,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,500,Calco Incoming RM QC
+711M006SN,711M006SN,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,375,Calco Incoming RM QC
+AD103,Irganox 1098,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,201.725,Calco Incoming RM QC
+TALC 1090,Talc 1090 / 700,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,1600,Calco Incoming RM QC
+AD101,Alkanox 240 / Irganox 168/ AD1680,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,576.275,Calco Incoming RM QC
+HR 181,HR 181,Polymer Styrene,Kg,1,1,Moving Average,1,0,1,0,0,0,330,Calco Incoming RM QC
+AD303,Ligalub 50PE / Finalux G748,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,461,Calco Incoming RM QC
+AD202,"P425, Aadibond P 1613M , Zebond12018,",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,69,Calco Incoming RM QC
+AD102,"Anox 20 / Irganox 1010, AD1010",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,256.1,Calco Incoming RM QC
+900M045,MI-45,Polymer Styrene,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+SAN-300N,SAN-300N,Polymer PC,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+731M001,731M001,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD203,"GE344, AADIBOND G 3170, Zebond-430",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,72.5,Calco Incoming RM QC
+PT03,RFC05,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD403,FR-DBDPE,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PA0002,Polyadd-PA0002,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,31.35,Calco Incoming RM QC
+AD304,CSP,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,51.9,Calco Incoming RM QC
+AD416,6570 PC/A FR BK,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+B400MN,B400MN / 975MO,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC01,550,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,83.6495,Calco Incoming RM QC
+AD502,1190 LD,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,37.5,Calco Incoming RM QC
+AD501,S2340,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,43.5,Calco Incoming RM QC
+AD405,PTFE- AD250,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,109,Calco Incoming RM QC
+AD310,Licowax-E,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD305,MgSt,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,24,Calco Incoming RM QC
+AD406,Zinc Borate ZnBo4,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,20,Calco Incoming RM QC
+B120MN,B120MN,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PB02,107,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,34.445,Calco Incoming RM QC
+B220MN,B220MN / B970MO,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+G249,"T249,G568HD White (3mm)",Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,6500,Calco Incoming RM QC
+POB1,OB-1,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.983,Calco Incoming RM QC
+BP0800,BP0800 / PA6MB,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,303.9,Calco Incoming RM QC
+AD410,Pot. Diphenyl Sulfone Sulfonate -KSS / BC-58,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,200,Calco Incoming RM QC
+AD309,Licomont-P,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY02,1923,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,2.335,Calco Incoming RM QC
+PB05,Blue-II,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.71,Calco Incoming RM QC
+PR02,2050,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+POB2,CPI-2T,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,13.19,Calco Incoming RM QC
+PR01,R122,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,10.3808,Calco Incoming RM QC
+PB03,"15,3",Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.87,Calco Incoming RM QC
+P-22,P-22,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+H-10,H-10,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,44.05,Calco Incoming RM QC
+PY03,1905,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,20.4,Calco Incoming RM QC
+PR03,E2G / 179 / 6721,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,49.32,Calco Incoming RM QC
+PB04,"15,0",Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.054,Calco Incoming RM QC
+PO03,960,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO04,Orange 203,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,23.7,Calco Incoming RM QC
+PV01,AV,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.165,Calco Incoming RM QC
+AD405A,Inolub T110,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PG01,G7,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.2107,Calco Incoming RM QC
+BP0880,BP0880 / M0800,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO01,1475,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PB01,EPI-52,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD415,OPN PBT NH,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+24FS040,24FS040 / 16MA400,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,25,Calco Incoming RM QC
+AM650N,AM650N,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+CO15EG,CO15EG,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+7684 KN,7684 KN,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+Y35GR,Y35GR,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+B265MO,B265MO,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+501M020,501M020,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+2083,2083,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+2110,6120,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P100M,P100M,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+1085,1085,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+TH6085,TH6085,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M005,711M005,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M022,711M022,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M023,711M023,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+JE25SD,JE25SD / 1020SD,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,5995.6253,Calco Incoming RM QC
+JE28,"PA6 3.2 RV, BE3335-F",Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,5733.7,Calco Incoming RM QC
+N200HV,N200HV / N200SL,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+711M006SM,711M006SM,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC02,5330,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC03,8242,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC04,3090,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC05,5799,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PC06,1830,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO02,2 RL,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+POB3,KCB,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PP01,111,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PP02,P1222,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PP03,P1065,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PR04,EG,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PR05,C-130,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PR06,2RL,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PR07,R254,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY01,1322,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY04,1222,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY05,GHS,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY06,191,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY07,313,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY08,114,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE0803,PE0803,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+BP0717,BP0717,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE0201,PE0201,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PB06HS,MB Black 223,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0.3,Calco Incoming RM QC
+PG02HS,MB Green 8895,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PG03HS,MB Green,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PBR1HS,MB Green LD,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PBR2HS,MB Nylon Wht,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY10HS,MB Yellow 1905,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PY11HS,PY11HS,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PD01,Diffuser,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00006,Paper Laminated-Plain,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00011,Ribbon PWR 110mm x 310Mtr,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00012,Aluminium Liner Export Bag,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00013,Wooden Pallet,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00014,Thread,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+CAO,CaO,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+CS-123D,CS-123D / T435TM,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+CS-995,CS-995,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+T435TM,T435TM,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+G968,ECS-03-G568HD (3mm),Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+G952,CS-952,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+G511,T511,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+910M040,ASA Bk,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+6202,Vistamax-6202,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD104,Songnox PQP,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P-30,P-30,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD204,P-490,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD302,Finalux SS,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD306,ZS,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD307,Hi-Wax,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD308,Finawax O,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD401,DECA FR-1210,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD407,TPP,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD408,BASO4,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PA0001,Polyadd-PA0001,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+SM-200,SM-200,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+EXFLAIR,Exflair,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+GBEAD,GBead,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+B-30,B-30,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+M-1251,M-1251,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+M-1420,M-1420,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+DELAMINE,Delamine,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD205,Nano,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+FR-102,FR-102,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+APP,APP,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+300-FG,300-FG,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+MIXROY,Mixroy,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD311,Exolit OP1312,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD312,Irusil 1100,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD313,Zemac E60,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD412,Ecoflame CPP-2 Non Halogenated FR PP,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD413,FR 4250 PA,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD417,"MP PA GF NH, NP202C",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,3195,Calco Incoming RM QC
+AD206,Tafmer,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+G560,560A,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+HALDWANI,Haldwani,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD404A,"MCA-MC012, MCA-25 JLS",Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PT04,PT04,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO05,Pigment Orange,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,2.04,Calco Incoming RM QC
+AD503,UV944,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,2,Calco Incoming RM QC
+AD105,MOS2,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+520M001,PPE,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+C320MN,High Impact/MFI Polymer,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+790M001,POM,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD106,Antistatic Additive,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+910M030,ASA Natural,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD107,CTI,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD601,Laser Marking Additive,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00015,PP Woven Bag Red,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+P00016,PP Woven Bag Yellow,Packing Material,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD314,Nylostab,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+H8202L,J2800Z,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,16100,Calco Incoming RM QC
+AD602,Laser Marking Additive White Colour on Black,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD810,Songnox 6260,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,43.5,Calco Incoming RM QC
+AD801,Kaneka PA20,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,55.5,Calco Incoming RM QC
+AD807,ALUMINIUM DISTEARATE,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,59,Calco Incoming RM QC
+AD802,CHAIN EXTENDER - Kaneka MV02,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD803G,GLASS G75 GLASS FIBRE,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD418,FR 1312 ORGANIC PHOSPHOROUS,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD419,FR 1400 ORGANIC PHOSPHOROUS,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD804,Nigrocene Black Pigment,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,5.5,Calco Incoming RM QC
+AD805,GMS ADDITIVE PROCESSING ADDITIVE,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,14.5,Calco Incoming RM QC
+AD806,DHT-4A PROCESSING ADDITIVE,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD808,ZNS,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD809,MELAMINE POLYPHOSPHATE - MPP (ANTIDRIPPING AGENT),Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD811,M-732 ADDITIVE MBS Impact Modifier,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD812M,Milled Glass Fibre,Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD4814,ORGANIC PC FLAME RETARDANT,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO81,Lanxess bayplast Orange TP,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PO82,Makrolex Orange HT,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PT83,KRONOS 2220 TiO2,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD816,LOTADER AX8900 OPTIM,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD8,TALC HFM-15,Mineral,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PT05,Polygloss 90 (Kamin),Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+A45L,21SPC,Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,21000,Calco Incoming RM QC
+AD402F,RTF-200 (ATO Replacement),Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+L09XM,0.93 IV,Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,5000,Calco Incoming RM QC
+H200FG,20 MFI Homopolymer,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD420,Exolit™ OP 1240,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD421,ExolitTM OP 1248/NP201,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+H-11,H318,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,1,Calco Incoming RM QC
+T551,T551 (CS FOR mPPE Glass fiber),Glass Fibre,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+530M001,HIPS 731E,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+JE25L,Lubricated 2.45 RV PA6 Unfilled,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+A45G,A45G,Unclassified RM,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD422,EPFR-100C,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD316,CERALENE® 694,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD315,OPTIM® GB-352 (P),Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD402F1,RTF-300,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE6269,PE6269 Cabot,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,1243.5,Calco Incoming RM QC
+AD209,BONDIYRAM 1001,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+C080M,PP C080 MA,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+D120MA,D120MA,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AER003N,AER003N,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD423,FR 8950,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+L05XM,DHK055(PBT IV 0.50),Polymer PBT,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD207,G4170,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+A24,U3600(Invista),Polymer PA,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PA0003,OKABEST CLX 71,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE522156,NYLON RED MB,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE252158,PP MB PEARL GOLD,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+PE252169,NIGROCENE MB BLACK MB,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,60,Calco Incoming RM QC
+PE44882,PBT/SAN MB,Pigment,Kg,1,1,Moving Average,1,0,1,0,0,0,100,Calco Incoming RM QC
+AD424,Magnesium Hydroxide,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+AD815,Zinc Oxide TS 99,Additive,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+900MS136,XARECTM S136,Polymer Styrene,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+530M002,High Impact Polystyrene CT60,Polymer Styrene,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+H110MA,PP Low MFI,Polymer PE PP,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC
+C1200,CYCOLOY C1200HF Natural Non FR,Polymer Styrene,Kg,1,1,Moving Average,1,0,1,0,0,0,0,Calco Incoming RM QC

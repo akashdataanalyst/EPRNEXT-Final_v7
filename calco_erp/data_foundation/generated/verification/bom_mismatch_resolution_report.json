@@ -1,0 +1,263 @@
+{
+  "before_mismatch_count": 10,
+  "after_mismatch_count": 10,
+  "analyses": [
+    {
+      "item_code": "500C1032",
+      "live_bom": "BOM-500C1032-001",
+      "expected_source_bom": "BOM-500C1032-R0",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "500C1032",
+          "bom": "BOM-500C1032-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.9"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "500C2031A",
+      "live_bom": "BOM-500C2031A-001",
+      "expected_source_bom": "BOM-500C2031A-R0",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "500C2031A",
+          "bom": "BOM-500C2031A-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.9"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "710C0022",
+      "live_bom": "BOM-710C0022-001",
+      "expected_source_bom": "BOM-710C0022-R1",
+      "expected_total": 100.009805,
+      "live_total": 100.009805,
+      "mismatch_rows": [
+        {
+          "item_code": "710C0022",
+          "bom": "BOM-710C0022-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.939805"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "710C3021A",
+      "live_bom": "BOM-710C3021A-001",
+      "expected_source_bom": "BOM-710C3021A-R1",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "710C3021A",
+          "bom": "BOM-710C3021A-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.85"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "710C3024",
+      "live_bom": "BOM-710C3024-001",
+      "expected_source_bom": "BOM-710C3024-R1",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "710C3024",
+          "bom": "BOM-710C3024-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.85"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "740C3092",
+      "live_bom": "BOM-740C3092-001",
+      "expected_source_bom": "BOM-740C3092-R0",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "740C3092",
+          "bom": "BOM-740C3092-001",
+          "component": "AD303",
+          "expected_qty": "0.2",
+          "live_qty": "0.3"
+        },
+        {
+          "item_code": "740C3092",
+          "bom": "BOM-740C3092-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.5"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "760C1003",
+      "live_bom": "BOM-760C1003-001",
+      "expected_source_bom": "BOM-760C1003-R0",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "760C1003",
+          "bom": "BOM-760C1003-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.85"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    },
+    {
+      "item_code": "900C0011",
+      "live_bom": "BOM-900C0011-001",
+      "expected_source_bom": "BOM-900C0011-R2",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "mismatch_rows": [
+        {
+          "item_code": "900C0011",
+          "bom": "BOM-900C0011-001",
+          "component": "AD304",
+          "expected_qty": "0.2",
+          "live_qty": "1.2"
+        },
+        {
+          "item_code": "900C0011",
+          "bom": "BOM-900C0011-001",
+          "component": "__TOTAL__",
+          "expected_qty": "100.0",
+          "live_qty": "99.8"
+        }
+      ],
+      "component_deltas": [],
+      "root_cause": "Rounding Issue",
+      "clear_fix": false,
+      "notes": [
+        "Total difference is within tolerance after aggregation."
+      ]
+    }
+  ],
+  "fixed_items": [],
+  "exceptions": [
+    {
+      "item_code": "500C1032",
+      "bom": "BOM-500C1032-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "500C2031A",
+      "bom": "BOM-500C2031A-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "710C0022",
+      "bom": "BOM-710C0022-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.009805,
+      "live_total": 100.009805,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "710C3021A",
+      "bom": "BOM-710C3021A-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "710C3024",
+      "bom": "BOM-710C3024-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "740C3092",
+      "bom": "BOM-740C3092-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "760C1003",
+      "bom": "BOM-760C1003-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    },
+    {
+      "item_code": "900C0011",
+      "bom": "BOM-900C0011-001",
+      "root_cause": "Rounding Issue",
+      "expected_total": 100.0,
+      "live_total": 100.0,
+      "notes": "Total difference is within tolerance after aggregation."
+    }
+  ]
+}

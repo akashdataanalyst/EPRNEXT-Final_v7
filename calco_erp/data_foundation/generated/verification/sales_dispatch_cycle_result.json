@@ -1,0 +1,175 @@
+{
+  "bom_integrity": {
+    "bom_quantity_mismatches": 0,
+    "status": "Clean"
+  },
+  "cycle": {
+    "sales_order": "SAL-ORD-2026-00001",
+    "sales_order_item": "19955lb5v0",
+    "test_fg_item": "710C3031",
+    "fg_qty": 1000.0,
+    "bom_used": "BOM-710C3031-001",
+    "rm_items_consumed": [
+      {
+        "item_code": "H8202NLB",
+        "qty": 527.9
+      },
+      {
+        "item_code": "JE25 OG",
+        "qty": 150.0
+      },
+      {
+        "item_code": "G568",
+        "qty": 315.0
+      },
+      {
+        "item_code": "AD301",
+        "qty": 5.0
+      },
+      {
+        "item_code": "AD101",
+        "qty": 1.0
+      },
+      {
+        "item_code": "AD103",
+        "qty": 1.0
+      },
+      {
+        "item_code": "POB2",
+        "qty": 0.1
+      }
+    ],
+    "purchase_receipt": "MAT-PRE-2026-00002",
+    "rm_inward_validations": [
+      "19vcrlsiq7",
+      "19vboq83nq",
+      "19vnlb55t3",
+      "19uq1gvvhk",
+      "19ukgfgevo",
+      "19ulf0hkis",
+      "19ubld0s57"
+    ],
+    "rm_qc_decisions": [
+      "19vs5q4lv8",
+      "19vb2a680a",
+      "19v0rfa4cv",
+      "1a0lahmi6v",
+      "1a03a0j9hs",
+      "1a0s3fi6cp",
+      "1a041dpme1"
+    ],
+    "rm_release_notes": [
+      "19valb65v2",
+      "19v343p19r",
+      "1a09j34kn5",
+      "1a0eukemil",
+      "1a0einvbkq",
+      "1a056bp4g8",
+      "1a097gulfi"
+    ],
+    "production_plan": "MFG-PP-2026-00002",
+    "work_order": "MFG-WO-2026-00003",
+    "material_readiness_check": "1a2avng1m5",
+    "manufacture_stock_entry": "MAT-STE-2026-00003",
+    "batch_production_record": "1afsoj4d11",
+    "fg_batch": "FG-sales-cycle-20260314220112-710C3031",
+    "final_quality_inspection": "MAT-QA-2026-00017",
+    "final_qc_release": "1ago1q2en3",
+    "coa_record": "1ag0n91sn5",
+    "delivery_note": "MAT-DN-2026-00002",
+    "dispatch_quality_inspection": "MAT-QA-2026-00018",
+    "dispatch_clearance": "1aju33k09r",
+    "traceability": {
+      "sales_order": "SAL-ORD-2026-00001",
+      "manufacture_stock_entry": "MAT-STE-2026-00003",
+      "delivery_note": "MAT-DN-2026-00002",
+      "rm_batch_consumption": [
+        {
+          "item_code": "H8202NLB",
+          "qty": 527.9,
+          "batch_no": "RM-sales-cycle-20260314220112-H8202NLB",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "JE25 OG",
+          "qty": 150.0,
+          "batch_no": "RM-sales-cycle-20260314220112-JE25-OG",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "G568",
+          "qty": 315.0,
+          "batch_no": "RM-sales-cycle-20260314220112-G568",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD301",
+          "qty": 5.0,
+          "batch_no": "RM-sales-cycle-20260314220112-AD301",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD101",
+          "qty": 1.0,
+          "batch_no": "RM-sales-cycle-20260314220112-AD101",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD103",
+          "qty": 1.0,
+          "batch_no": "RM-sales-cycle-20260314220112-AD103",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "POB2",
+          "qty": 0.1,
+          "batch_no": "RM-sales-cycle-20260314220112-POB2",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        }
+      ],
+      "fg_batch_produced": [
+        {
+          "item_code": "710C3031",
+          "qty": 1000.0,
+          "batch_no": "FG-sales-cycle-20260314220112-710C3031",
+          "source_warehouse": null,
+          "target_warehouse": "Finished Goods - CPPL",
+          "is_finished_item": 1
+        }
+      ],
+      "fg_batch_dispatched": {
+        "item_code": "710C3031",
+        "batch_no": "FG-sales-cycle-20260314220112-710C3031",
+        "warehouse": "Finished Goods - CPPL"
+      }
+    }
+  },
+  "negative_controls": {
+    "dispatch_without_final_qc_release": {
+      "passed": true,
+      "message": "Final QC Release must be submitted for item 710C3031, batch FG-neg-dn-20260314220117-710C3031 before dispatch."
+    },
+    "manufacture_without_released_rm": {
+      "passed": true,
+      "message": "Released RM batch is missing for item H8202NLB, batch RM-neg-rm-20260314220120-H8202NLB."
+    },
+    "work_order_without_bom": {
+      "passed": true,
+      "message": "[Work Order, MFG-WO-2026-00004]: bom_no"
+    }
+  }
+}

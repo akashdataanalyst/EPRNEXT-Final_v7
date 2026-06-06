@@ -1,0 +1,8 @@
+warehouse_name,parent_warehouse,company
+Raw Material - HOLD,,Calco PolyTechnik Pvt Ltd
+Raw Material - RELEASED,,Calco PolyTechnik Pvt Ltd
+Raw Material - REJECTED,,Calco PolyTechnik Pvt Ltd
+WIP - Production,,Calco PolyTechnik Pvt Ltd
+Finished Good - HOLD,,Calco PolyTechnik Pvt Ltd
+Finished Good - RELEASED,,Calco PolyTechnik Pvt Ltd
+Finished Good - REJECTED,,Calco PolyTechnik Pvt Ltd

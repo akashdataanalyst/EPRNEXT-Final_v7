@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 1244" role="img" aria-labelledby="title desc">
+  <title id="title">Calco Poly Technik logo</title>
+  <desc id="desc">Calco PolyTechnik Pvt Ltd logo used for ERP branding.</desc>
+  <rect width="1544" height="1244" fill="#ffffff"/>
+  <g transform="translate(0,40)">
+    <path
+      fill="#d74b4b"
+      d="M324 69l250 60c6 2 9 9 5 15L430 383c-57 91-82 176-78 264 4 66 22 129 51 189-57-55-101-124-132-206-43-114-58-256-47-426 2-42 2-87 0-135z"
+    />
+    <path
+      fill="#d74b4b"
+      d="M762 0l34 155c2 10-1 20-9 26L598 307c-81 54-141 119-180 196-44 86-58 177-42 275-42-44-67-103-73-176-12-138 29-265 126-382C516 126 627 53 762 0z"
+    />
+    <path
+      fill="#d74b4b"
+      d="M1002 64l40 173c3 12-4 23-15 27L821 331c-128 42-229 96-302 162-84 76-124 156-120 244-33-34-48-81-45-141 5-110 69-214 191-313 100-82 252-177 457-287z"
+    />
+    <path
+      fill="#d74b4b"
+      d="M322 104c-1 35-2 70-2 106 0 144 7 256 23 336 24 118 72 210 144 274 84 74 194 111 330 111 73 0 137-12 191-36 53-23 87-54 101-93 10-26 10-56 0-90-14-47-43-90-88-128h234c3 35 4 69 4 102 0 194-55 337-166 429-98 81-233 122-406 122-152 0-281-31-387-92-112-66-195-159-248-279-40-91-60-195-60-314 0-83 10-166 30-247 24-98 58-183 102-257 53-90 119-171 198-244z"
+    />
+    <text
+      x="718"
+      y="552"
+      fill="#76777c"
+      font-size="182"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-style="italic"
+      font-weight="700"
+    >Calco</text>
+    <text
+      x="1080"
+      y="653"
+      fill="#35353a"
+      font-size="112"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-weight="400"
+    >®</text>
+    <text
+      x="112"
+      y="1122"
+      fill="#76777c"
+      font-size="173"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-style="italic"
+      font-weight="700"
+    >Calco Poly Technik</text>
+  </g>
+</svg>

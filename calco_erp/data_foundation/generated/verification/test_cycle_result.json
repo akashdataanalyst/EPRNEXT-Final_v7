@@ -1,0 +1,74 @@
+{
+  "test_fg_item": "710C3031",
+  "fg_qty": 1000.0,
+  "bom_used": "BOM-710C3031-001",
+  "rm_items_consumed": [
+    {
+      "item_code": "H8202NLB",
+      "qty": 527.9
+    },
+    {
+      "item_code": "JE25 OG",
+      "qty": 150.0
+    },
+    {
+      "item_code": "G568",
+      "qty": 315.0
+    },
+    {
+      "item_code": "AD301",
+      "qty": 5.0
+    },
+    {
+      "item_code": "AD101",
+      "qty": 1.0
+    },
+    {
+      "item_code": "AD103",
+      "qty": 1.0
+    },
+    {
+      "item_code": "POB2",
+      "qty": 0.1
+    }
+  ],
+  "purchase_receipt": "MAT-PRE-2026-00001",
+  "rm_inward_validations": [
+    "b03l4b1vno",
+    "b031nc5knl",
+    "b03a4gkq9c",
+    "b03f2kppuu",
+    "b03eeaahkg",
+    "b02dp3qgp0",
+    "b02hr2is5q"
+  ],
+  "rm_qc_decisions": [
+    "b032abbiut",
+    "b03a5eko3d",
+    "b03s88b2ah",
+    "b04k58m2qo",
+    "b04uoun9eq",
+    "b041gti8r2",
+    "b04g9assmr"
+  ],
+  "rm_release_notes": [
+    "b030nad3gn",
+    "b03b8s4j4m",
+    "b044jpbp4p",
+    "b04e8cc0fs",
+    "b04og07vr2",
+    "b04kh8ocb3",
+    "b045fac3ib"
+  ],
+  "production_plan": "MFG-PP-2026-00001",
+  "work_order": "MFG-WO-2026-00002",
+  "material_readiness_check": "b067rcdvq2",
+  "manufacture_stock_entry": "MAT-STE-2026-00002",
+  "batch_production_record": "b0kb1fthg8",
+  "fg_batch": "FG-710C3031-001",
+  "quality_inspection": "MAT-QA-2026-00008",
+  "final_qc_release": "b0lt8kj9rk",
+  "delivery_note": "MAT-DN-2026-00001",
+  "dispatch_quality_inspection": "MAT-QA-2026-00009",
+  "dispatch_clearance": "b0rmrobv78"
+}

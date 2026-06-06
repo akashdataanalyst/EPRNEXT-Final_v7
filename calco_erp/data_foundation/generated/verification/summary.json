@@ -1,0 +1,24 @@
+{
+  "fg_items_in_source": 1096,
+  "rm_items_in_source": 275,
+  "missing_fg_items": 0,
+  "missing_rm_items": 0,
+  "duplicate_item_codes_in_db": 0,
+  "missing_boms": 0,
+  "missing_bom_components": 0,
+  "bom_quantity_mismatches": 0,
+  "warehouses_required": [
+    {
+      "warehouse": "Stores - CPPL",
+      "exists": 1
+    },
+    {
+      "warehouse": "Work In Progress - CPPL",
+      "exists": 1
+    },
+    {
+      "warehouse": "Finished Goods - CPPL",
+      "exists": 1
+    }
+  ]
+}

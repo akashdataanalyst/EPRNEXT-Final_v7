@@ -1,0 +1,72 @@
+{
+  "config": {
+    "stock_settings_over_delivery_receipt_allowance": 0.0,
+    "item_over_delivery_receipt_allowance": 0.0
+  },
+  "under_receipt": {
+    "purchase_order": "PUR-ORD-2026-00005",
+    "purchase_receipt": "MAT-PRE-2026-00016",
+    "quality_inspection": "MAT-QA-2026-00074",
+    "batch_no": "RM-under-receipt-under-20260315144050",
+    "allowed": true,
+    "blocked_message": "",
+    "po_status": {
+      "status": "To Receive and Bill",
+      "per_received": 70.0,
+      "ordered_qty": 1000.0,
+      "received_qty": 700.0,
+      "pending_qty": 300.0
+    },
+    "stock_ledger": [
+      {
+        "item_code": "JE25 OG",
+        "warehouse": "Stores - CPPL",
+        "batch_no": null,
+        "actual_qty": 700.0,
+        "qty_after_transaction": 4400.0,
+        "incoming_rate": 1.0,
+        "valuation_rate": 1.0,
+        "stock_value_difference": 700.0
+      }
+    ],
+    "gl_entries": [
+      {
+        "account": "Stock In Hand - CPPL",
+        "debit": 700.0,
+        "credit": 0.0,
+        "against": "Stock Received But Not Billed - CPPL",
+        "remarks": "Accounting Entry for Stock"
+      },
+      {
+        "account": "Stock Received But Not Billed - CPPL",
+        "debit": 0.0,
+        "credit": 700.0,
+        "against": "Stock In Hand - CPPL",
+        "remarks": "Accounting Entry for Stock"
+      }
+    ],
+    "result": "PASS"
+  },
+  "over_receipt": {
+    "purchase_order": "PUR-ORD-2026-00006",
+    "purchase_receipt": "MAT-PRE-2026-00017",
+    "quality_inspection": "MAT-QA-2026-00075",
+    "batch_no": "RM-over-receipt-over-20260315144050",
+    "allowed": false,
+    "blocked_message": "erpnext.controllers.status_updater.OverAllowanceError: This document is over limit by Qty 100.0 for item JE25 OG. To allow over receipt / delivery, update Over Receipt/Delivery Allowance in Stock Settings or the Item.",
+    "po_status": {
+      "status": "To Receive and Bill",
+      "per_received": 0.0,
+      "ordered_qty": 1000.0,
+      "received_qty": 0.0,
+      "pending_qty": 1000.0
+    },
+    "stock_ledger": [],
+    "gl_entries": [],
+    "result": "PASS"
+  },
+  "summary": {
+    "under_receipt": "PASS",
+    "over_receipt": "PASS"
+  }
+}

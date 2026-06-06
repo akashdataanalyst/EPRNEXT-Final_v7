@@ -1,0 +1,1300 @@
+{
+  "summary": {
+    "simple_grade_cycle": "PASS",
+    "complex_grade_cycle": "PASS",
+    "partial_dispatch": "PASS",
+    "final_qc_hold_blocks_dispatch": "PASS",
+    "complaint_traceability_from_sales_invoice": "PASS"
+  },
+  "master_data_verification": {
+    "fg_items_in_source": 1096,
+    "rm_items_in_source": 275,
+    "missing_fg_items": 0,
+    "missing_rm_items": 0,
+    "duplicate_item_codes_in_db": 0,
+    "missing_boms": 0,
+    "missing_bom_components": 0,
+    "bom_quantity_mismatches": 0,
+    "warehouses_required": [
+      {
+        "warehouse": "Stores - CPPL",
+        "exists": 1
+      },
+      {
+        "warehouse": "Work In Progress - CPPL",
+        "exists": 1
+      },
+      {
+        "warehouse": "Finished Goods - CPPL",
+        "exists": 1
+      }
+    ]
+  },
+  "simple_cycle": {
+    "item_code": "710C0031A",
+    "qty": 1000.0,
+    "dispatch_qty": 1000.0,
+    "customer": "Test Manufacturing Customer",
+    "supplier": "Test RM Supplier",
+    "operator": "HR-EMP-00002",
+    "machine": "Line 1",
+    "shift_type": "A Shift",
+    "bom_used": "BOM-710C0031A-001",
+    "sales_order": "SAL-ORD-2026-00005",
+    "sales_order_item": "em4hadigl3",
+    "production_plan": "MFG-PP-2026-00006",
+    "work_order": "MFG-WO-2026-00007",
+    "material_readiness_check": "emhamp6lp8",
+    "purchase_receipt": "MAT-PRE-2026-00006",
+    "rm_inward_validations": [
+      "emeb0hjdn6"
+    ],
+    "rm_qc_decisions": [
+      "emeejbpsfc"
+    ],
+    "rm_release_notes": [
+      "eme2gks645"
+    ],
+    "rm_requirement": [
+      {
+        "item_code": "H8202L",
+        "qty": 1000.0
+      }
+    ],
+    "stock_availability_before": [
+      {
+        "item_code": "H8202L",
+        "required_qty": 1000.0,
+        "available_qty": 0.0,
+        "shortage_qty": 1000.0
+      }
+    ],
+    "actual_rm_consumption": [
+      {
+        "item_code": "H8202L",
+        "qty": 1000.0,
+        "batch_no": "RM-phase2-simple-full-20260315135230-H8202L",
+        "source_warehouse": "Stores - CPPL"
+      }
+    ],
+    "expected_vs_actual_consumption": [
+      {
+        "item_code": "H8202L",
+        "required_qty": 1000.0,
+        "actual_qty": 1000.0,
+        "variance_qty": 0.0
+      }
+    ],
+    "rm_batches_used": {
+      "H8202L": "RM-phase2-simple-full-20260315135230-H8202L"
+    },
+    "manufacture_stock_entry": "MAT-STE-2026-00007",
+    "batch_production_record": "emlo5ng3gr",
+    "fg_batch": "FG-phase2-simple-full-20260315135230-710C0031A",
+    "quality_inspection": "MAT-QA-2026-00046",
+    "final_qc_release": "emlkjd0pmd",
+    "coa_record": "eml1l6iqdm",
+    "delivery_note": "MAT-DN-2026-00006",
+    "dispatch_quality_inspection": "MAT-QA-2026-00047",
+    "dispatch_clearance": "emnoa38a66",
+    "sales_invoice": "ACC-SINV-2026-00002",
+    "stock_ledger": {
+      "purchase_receipt": [
+        {
+          "item_code": "H8202L",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 1000.0,
+          "qty_after_transaction": 1000.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 1000.0
+        }
+      ],
+      "manufacture_stock_entry": [
+        {
+          "item_code": "H8202L",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -1000.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -1000.0
+        },
+        {
+          "item_code": "710C0031A",
+          "warehouse": "Finished Goods - CPPL",
+          "batch_no": null,
+          "actual_qty": 1000.0,
+          "qty_after_transaction": 1000.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 1000.0
+        }
+      ],
+      "delivery_note": [
+        {
+          "item_code": "710C0031A",
+          "warehouse": "Finished Goods - CPPL",
+          "batch_no": null,
+          "actual_qty": -1000.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -1000.0
+        }
+      ]
+    },
+    "traceability": {
+      "work_order": "MFG-WO-2026-00007",
+      "manufacture_stock_entry": "MAT-STE-2026-00007",
+      "delivery_note": "MAT-DN-2026-00006",
+      "rm_batches": [
+        {
+          "item_code": "H8202L",
+          "qty": 1000.0,
+          "batch_no": "RM-phase2-simple-full-20260315135230-H8202L",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        }
+      ],
+      "fg_batch": "FG-phase2-simple-full-20260315135230-710C0031A",
+      "fg_rows": [
+        {
+          "item_code": "710C0031A",
+          "qty": 1000.0,
+          "batch_no": "FG-phase2-simple-full-20260315135230-710C0031A",
+          "source_warehouse": null,
+          "target_warehouse": "Finished Goods - CPPL",
+          "is_finished_item": 1
+        }
+      ]
+    }
+  },
+  "complex_cycle_attempts": [
+    {
+      "item_code": "730C2094F",
+      "error": "Material Readiness Check cannot be Ready while BOM items are missing released RM."
+    }
+  ],
+  "complex_cycle": {
+    "item_code": "710C3091",
+    "qty": 1000.0,
+    "dispatch_qty": 1000.0,
+    "customer": "Test Manufacturing Customer",
+    "supplier": "Test RM Supplier",
+    "operator": "HR-EMP-00003",
+    "machine": "Line 1",
+    "shift_type": "A Shift",
+    "bom_used": "BOM-710C3091-001",
+    "sales_order": "SAL-ORD-2026-00006",
+    "sales_order_item": "eo54i4hq5d",
+    "production_plan": "MFG-PP-2026-00007",
+    "work_order": "MFG-WO-2026-00008",
+    "material_readiness_check": "eoqg61vj85",
+    "purchase_receipt": "MAT-PRE-2026-00007",
+    "rm_inward_validations": [
+      "eomnh53a8i",
+      "eom5euesrc",
+      "eoml5984jl",
+      "eomi0d4ein",
+      "eomin22qlh",
+      "eom54hhvbf",
+      "eomj8cpq4e",
+      "eomelbfckj",
+      "eomb31nfmf",
+      "eom18uppq4",
+      "eomdt092i6",
+      "eom1m0m1kv",
+      "eom9nm3u4c"
+    ],
+    "rm_qc_decisions": [
+      "eont3vu3u6",
+      "eon04m1jue",
+      "eonh9ivkqj",
+      "eonsctvjvu",
+      "eonl4dgg27",
+      "eonoihtvnl",
+      "eoolkd4jv5",
+      "eoobm3bmhb",
+      "eootp5j14p",
+      "eooum55sia",
+      "eoo9muvldp",
+      "eoogvdi7lh",
+      "eoosu7tpbg"
+    ],
+    "rm_release_notes": [
+      "eonl3b1ipv",
+      "eon2n9712i",
+      "eon164pkoi",
+      "eonftkijv5",
+      "eon8dh2l9s",
+      "eoo5e3mf9c",
+      "eoobq00n36",
+      "eoon9qiijn",
+      "eoo5ne7eko",
+      "eoovqr4hcl",
+      "eoopp36bsc",
+      "eooeauqh82",
+      "eoomsnhveo"
+    ],
+    "rm_requirement": [
+      {
+        "item_code": "H8202NLB",
+        "qty": 563.961
+      },
+      {
+        "item_code": "G568",
+        "qty": 180.0
+      },
+      {
+        "item_code": "KEMOLIT KF4",
+        "qty": 120.0
+      },
+      {
+        "item_code": "AD402",
+        "qty": 30.0
+      },
+      {
+        "item_code": "AD403",
+        "qty": 90.0
+      },
+      {
+        "item_code": "AD406",
+        "qty": 5.0
+      },
+      {
+        "item_code": "AD301",
+        "qty": 5.0
+      },
+      {
+        "item_code": "AD101",
+        "qty": 1.0
+      },
+      {
+        "item_code": "AD102",
+        "qty": 1.0
+      },
+      {
+        "item_code": "PC01",
+        "qty": 0.012
+      },
+      {
+        "item_code": "PR02",
+        "qty": 0.002
+      },
+      {
+        "item_code": "PY02",
+        "qty": 0.025
+      },
+      {
+        "item_code": "PT01",
+        "qty": 4.0
+      }
+    ],
+    "stock_availability_before": [
+      {
+        "item_code": "H8202NLB",
+        "required_qty": 563.961,
+        "available_qty": 0.0,
+        "shortage_qty": 563.961
+      },
+      {
+        "item_code": "G568",
+        "required_qty": 180.0,
+        "available_qty": 0.0,
+        "shortage_qty": 180.0
+      },
+      {
+        "item_code": "KEMOLIT KF4",
+        "required_qty": 120.0,
+        "available_qty": 0.0,
+        "shortage_qty": 120.0
+      },
+      {
+        "item_code": "AD402",
+        "required_qty": 30.0,
+        "available_qty": 0.0,
+        "shortage_qty": 30.0
+      },
+      {
+        "item_code": "AD403",
+        "required_qty": 90.0,
+        "available_qty": 0.0,
+        "shortage_qty": 90.0
+      },
+      {
+        "item_code": "AD406",
+        "required_qty": 5.0,
+        "available_qty": 0.0,
+        "shortage_qty": 5.0
+      },
+      {
+        "item_code": "AD301",
+        "required_qty": 5.0,
+        "available_qty": 0.0,
+        "shortage_qty": 5.0
+      },
+      {
+        "item_code": "AD101",
+        "required_qty": 1.0,
+        "available_qty": 0.0,
+        "shortage_qty": 1.0
+      },
+      {
+        "item_code": "AD102",
+        "required_qty": 1.0,
+        "available_qty": 0.0,
+        "shortage_qty": 1.0
+      },
+      {
+        "item_code": "PC01",
+        "required_qty": 0.012,
+        "available_qty": 0.0,
+        "shortage_qty": 0.012
+      },
+      {
+        "item_code": "PR02",
+        "required_qty": 0.002,
+        "available_qty": 0.0,
+        "shortage_qty": 0.002
+      },
+      {
+        "item_code": "PY02",
+        "required_qty": 0.025,
+        "available_qty": 0.0,
+        "shortage_qty": 0.025
+      },
+      {
+        "item_code": "PT01",
+        "required_qty": 4.0,
+        "available_qty": 0.0,
+        "shortage_qty": 4.0
+      }
+    ],
+    "actual_rm_consumption": [
+      {
+        "item_code": "H8202NLB",
+        "qty": 563.961,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-H8202NLB",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "G568",
+        "qty": 180.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-G568",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "KEMOLIT KF4",
+        "qty": 120.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-KEMOLIT-KF4",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD402",
+        "qty": 30.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD402",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD403",
+        "qty": 90.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD403",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD406",
+        "qty": 5.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD406",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD301",
+        "qty": 5.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD301",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD101",
+        "qty": 1.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD101",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "AD102",
+        "qty": 1.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD102",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "PC01",
+        "qty": 0.012,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PC01",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "PR02",
+        "qty": 0.002,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PR02",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "PY02",
+        "qty": 0.025,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PY02",
+        "source_warehouse": "Stores - CPPL"
+      },
+      {
+        "item_code": "PT01",
+        "qty": 4.0,
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PT01",
+        "source_warehouse": "Stores - CPPL"
+      }
+    ],
+    "expected_vs_actual_consumption": [
+      {
+        "item_code": "H8202NLB",
+        "required_qty": 563.961,
+        "actual_qty": 563.961,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "G568",
+        "required_qty": 180.0,
+        "actual_qty": 180.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "KEMOLIT KF4",
+        "required_qty": 120.0,
+        "actual_qty": 120.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD402",
+        "required_qty": 30.0,
+        "actual_qty": 30.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD403",
+        "required_qty": 90.0,
+        "actual_qty": 90.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD406",
+        "required_qty": 5.0,
+        "actual_qty": 5.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD301",
+        "required_qty": 5.0,
+        "actual_qty": 5.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD101",
+        "required_qty": 1.0,
+        "actual_qty": 1.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "AD102",
+        "required_qty": 1.0,
+        "actual_qty": 1.0,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "PC01",
+        "required_qty": 0.012,
+        "actual_qty": 0.012,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "PR02",
+        "required_qty": 0.002,
+        "actual_qty": 0.002,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "PY02",
+        "required_qty": 0.025,
+        "actual_qty": 0.025,
+        "variance_qty": 0.0
+      },
+      {
+        "item_code": "PT01",
+        "required_qty": 4.0,
+        "actual_qty": 4.0,
+        "variance_qty": 0.0
+      }
+    ],
+    "rm_batches_used": {
+      "H8202NLB": "RM-phase2-complex-full-710C3091-20260315135236-H8202NLB",
+      "G568": "RM-phase2-complex-full-710C3091-20260315135236-G568",
+      "KEMOLIT KF4": "RM-phase2-complex-full-710C3091-20260315135236-KEMOLIT-KF4",
+      "AD402": "RM-phase2-complex-full-710C3091-20260315135236-AD402",
+      "AD403": "RM-phase2-complex-full-710C3091-20260315135236-AD403",
+      "AD406": "RM-phase2-complex-full-710C3091-20260315135236-AD406",
+      "AD301": "RM-phase2-complex-full-710C3091-20260315135236-AD301",
+      "AD101": "RM-phase2-complex-full-710C3091-20260315135236-AD101",
+      "AD102": "RM-phase2-complex-full-710C3091-20260315135236-AD102",
+      "PC01": "RM-phase2-complex-full-710C3091-20260315135236-PC01",
+      "PR02": "RM-phase2-complex-full-710C3091-20260315135236-PR02",
+      "PY02": "RM-phase2-complex-full-710C3091-20260315135236-PY02",
+      "PT01": "RM-phase2-complex-full-710C3091-20260315135236-PT01"
+    },
+    "manufacture_stock_entry": "MAT-STE-2026-00008",
+    "batch_production_record": "ep64o8g5po",
+    "fg_batch": "FG-phase2-complex-full-710C3091-20260315135236-710C3091",
+    "quality_inspection": "MAT-QA-2026-00061",
+    "final_qc_release": "ep78311ndm",
+    "coa_record": "ep7jevt1nu",
+    "delivery_note": "MAT-DN-2026-00007",
+    "dispatch_quality_inspection": "MAT-QA-2026-00062",
+    "dispatch_clearance": "ep9u5a4kfn",
+    "sales_invoice": "ACC-SINV-2026-00003",
+    "stock_ledger": {
+      "purchase_receipt": [
+        {
+          "item_code": "H8202NLB",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 563.961,
+          "qty_after_transaction": 563.961,
+          "incoming_rate": 0.999998227,
+          "valuation_rate": 0.999998227,
+          "stock_value_difference": 563.96
+        },
+        {
+          "item_code": "G568",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 180.0,
+          "qty_after_transaction": 180.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 180.0
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 120.0,
+          "qty_after_transaction": 120.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 120.0
+        },
+        {
+          "item_code": "AD402",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 30.0,
+          "qty_after_transaction": 30.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 30.0
+        },
+        {
+          "item_code": "AD403",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 90.0,
+          "qty_after_transaction": 90.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 90.0
+        },
+        {
+          "item_code": "AD406",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 5.0,
+          "qty_after_transaction": 5.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 5.0
+        },
+        {
+          "item_code": "AD301",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 5.0,
+          "qty_after_transaction": 5.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 5.0
+        },
+        {
+          "item_code": "AD101",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 1.0,
+          "qty_after_transaction": 1.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 1.0
+        },
+        {
+          "item_code": "AD102",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 1.0,
+          "qty_after_transaction": 1.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 1.0
+        },
+        {
+          "item_code": "PC01",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 0.012,
+          "qty_after_transaction": 0.012,
+          "incoming_rate": 0.833333333,
+          "valuation_rate": 0.833333333,
+          "stock_value_difference": 0.01
+        },
+        {
+          "item_code": "PR02",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 0.002,
+          "qty_after_transaction": 0.002,
+          "incoming_rate": 0.0,
+          "valuation_rate": 0.0,
+          "stock_value_difference": 0.0
+        },
+        {
+          "item_code": "PY02",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 0.025,
+          "qty_after_transaction": 0.025,
+          "incoming_rate": 0.8,
+          "valuation_rate": 0.8,
+          "stock_value_difference": 0.02
+        },
+        {
+          "item_code": "PT01",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": 4.0,
+          "qty_after_transaction": 4.0,
+          "incoming_rate": 1.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": 4.0
+        }
+      ],
+      "manufacture_stock_entry": [
+        {
+          "item_code": "H8202NLB",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -563.961,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 0.999998227,
+          "stock_value_difference": -563.96
+        },
+        {
+          "item_code": "G568",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -180.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -180.0
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -120.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -120.0
+        },
+        {
+          "item_code": "AD402",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -30.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -30.0
+        },
+        {
+          "item_code": "AD403",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -90.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -90.0
+        },
+        {
+          "item_code": "AD406",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -5.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -5.0
+        },
+        {
+          "item_code": "AD301",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -5.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -5.0
+        },
+        {
+          "item_code": "AD101",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -1.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -1.0
+        },
+        {
+          "item_code": "AD102",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -1.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -1.0
+        },
+        {
+          "item_code": "PC01",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -0.012,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 0.833333333,
+          "stock_value_difference": -0.01
+        },
+        {
+          "item_code": "PR02",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -0.002,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 0.0,
+          "stock_value_difference": 0.0
+        },
+        {
+          "item_code": "PY02",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -0.025,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 0.8,
+          "stock_value_difference": -0.02
+        },
+        {
+          "item_code": "PT01",
+          "warehouse": "Stores - CPPL",
+          "batch_no": null,
+          "actual_qty": -4.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.0,
+          "valuation_rate": 1.0,
+          "stock_value_difference": -4.0
+        },
+        {
+          "item_code": "710C3091",
+          "warehouse": "Finished Goods - CPPL",
+          "batch_no": null,
+          "actual_qty": 1000.0,
+          "qty_after_transaction": 1000.0,
+          "incoming_rate": 0.99999,
+          "valuation_rate": 0.99999,
+          "stock_value_difference": 999.99
+        }
+      ],
+      "delivery_note": [
+        {
+          "item_code": "710C3091",
+          "warehouse": "Finished Goods - CPPL",
+          "batch_no": null,
+          "actual_qty": -1000.0,
+          "qty_after_transaction": 0.0,
+          "incoming_rate": 0.99999,
+          "valuation_rate": 0.99999,
+          "stock_value_difference": -999.99
+        }
+      ]
+    },
+    "traceability": {
+      "work_order": "MFG-WO-2026-00008",
+      "manufacture_stock_entry": "MAT-STE-2026-00008",
+      "delivery_note": "MAT-DN-2026-00007",
+      "rm_batches": [
+        {
+          "item_code": "H8202NLB",
+          "qty": 563.961,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-H8202NLB",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "G568",
+          "qty": 180.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-G568",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty": 120.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-KEMOLIT-KF4",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD402",
+          "qty": 30.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD402",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD403",
+          "qty": 90.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD403",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD406",
+          "qty": 5.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD406",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD301",
+          "qty": 5.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD301",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD101",
+          "qty": 1.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD101",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "AD102",
+          "qty": 1.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD102",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "PC01",
+          "qty": 0.012,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PC01",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "PR02",
+          "qty": 0.002,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PR02",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "PY02",
+          "qty": 0.025,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PY02",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        },
+        {
+          "item_code": "PT01",
+          "qty": 4.0,
+          "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PT01",
+          "source_warehouse": "Stores - CPPL",
+          "target_warehouse": null,
+          "is_finished_item": 0
+        }
+      ],
+      "fg_batch": "FG-phase2-complex-full-710C3091-20260315135236-710C3091",
+      "fg_rows": [
+        {
+          "item_code": "710C3091",
+          "qty": 1000.0,
+          "batch_no": "FG-phase2-complex-full-710C3091-20260315135236-710C3091",
+          "source_warehouse": null,
+          "target_warehouse": "Finished Goods - CPPL",
+          "is_finished_item": 1
+        }
+      ]
+    }
+  },
+  "partial_dispatch": {
+    "item_code": "710C0031A",
+    "produced_qty": 1000.0,
+    "dispatched_qty": 400.0,
+    "remaining_qty": 600.0,
+    "fg_batch": "FG-phase2-partial-20260315135241-710C0031A",
+    "delivery_note": "MAT-DN-2026-00008",
+    "sales_invoice": "ACC-SINV-2026-00004",
+    "dispatch_clearance": "eq1g0t4kus",
+    "pass": true
+  },
+  "final_qc_hold_scenario": {
+    "item_code": "710C0031A",
+    "qty": 100.0,
+    "sales_order": "SAL-ORD-2026-00008",
+    "production_plan": "MFG-PP-2026-00009",
+    "work_order": "MFG-WO-2026-00010",
+    "material_readiness_check": "eqmlohlme3",
+    "purchase_receipt": "MAT-PRE-2026-00009",
+    "manufacture_stock_entry": "MAT-STE-2026-00010",
+    "batch_production_record": "eqpleqtstv",
+    "fg_batch": "FG-hold-710C0031A-20260315135243-710C0031A",
+    "quality_inspection": "MAT-QA-2026-00067",
+    "final_qc_release": "eqq0gsljem",
+    "delivery_note": "MAT-DN-2026-00009",
+    "dispatch_quality_inspection": "MAT-QA-2026-00068",
+    "actual_rm_consumption": [
+      {
+        "item_code": "H8202L",
+        "qty": 100.0,
+        "batch_no": "RM-hold-710C0031A-20260315135243-H8202L",
+        "source_warehouse": "Stores - CPPL"
+      }
+    ],
+    "dispatch_blocked": true,
+    "blocked_message": "Final QC Release must be submitted for item 710C0031A, batch FG-hold-710C0031A-20260315135243-710C0031A before dispatch."
+  },
+  "complaint_traceability": {
+    "sales_invoice": "ACC-SINV-2026-00003",
+    "delivery_note": "MAT-DN-2026-00007",
+    "item_code": "710C3091",
+    "fg_batch_no": "FG-phase2-complex-full-710C3091-20260315135236-710C3091",
+    "ticket": "eqsps41g9v",
+    "batch_production_record": "ep64o8g5po",
+    "work_order": "MFG-WO-2026-00008",
+    "stock_entry": "MAT-STE-2026-00008",
+    "final_qc_release": "ep78311ndm",
+    "final_quality_inspection": "MAT-QA-2026-00061",
+    "dispatch_clearance": "ep9u5a4kfn",
+    "coa_record": "ep7jevt1nu",
+    "rm_batches": [
+      {
+        "name": "eqtqmh6ptm",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.100687",
+        "modified": "2026-03-15 13:52:46.100687",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 1,
+        "item_code": "H8202NLB",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-H8202NLB",
+        "qty": 563.961,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoomsnhveo",
+        "rm_qc_decision": "eoosu7tpbg",
+        "quality_inspection": "MAT-QA-2026-00048",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtg9g08p7",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.125556",
+        "modified": "2026-03-15 13:52:46.125556",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 2,
+        "item_code": "G568",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-G568",
+        "qty": 180.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eooeauqh82",
+        "rm_qc_decision": "eoogvdi7lh",
+        "quality_inspection": "MAT-QA-2026-00049",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtor03i2c",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.126294",
+        "modified": "2026-03-15 13:52:46.126294",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 3,
+        "item_code": "KEMOLIT KF4",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-KEMOLIT-KF4",
+        "qty": 120.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoopp36bsc",
+        "rm_qc_decision": "eoo9muvldp",
+        "quality_inspection": "MAT-QA-2026-00050",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtfq7dtqc",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.126894",
+        "modified": "2026-03-15 13:52:46.126894",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 4,
+        "item_code": "AD402",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD402",
+        "qty": 30.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoovqr4hcl",
+        "rm_qc_decision": "eooum55sia",
+        "quality_inspection": "MAT-QA-2026-00051",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtnpjfdhk",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.127388",
+        "modified": "2026-03-15 13:52:46.127388",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 5,
+        "item_code": "AD403",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD403",
+        "qty": 90.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoo5ne7eko",
+        "rm_qc_decision": "eootp5j14p",
+        "quality_inspection": "MAT-QA-2026-00052",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqts81sfr5",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.127791",
+        "modified": "2026-03-15 13:52:46.127791",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 6,
+        "item_code": "AD406",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD406",
+        "qty": 5.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoon9qiijn",
+        "rm_qc_decision": "eoobm3bmhb",
+        "quality_inspection": "MAT-QA-2026-00053",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtpfcvq28",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.128327",
+        "modified": "2026-03-15 13:52:46.128327",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 7,
+        "item_code": "AD301",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD301",
+        "qty": 5.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoobq00n36",
+        "rm_qc_decision": "eoolkd4jv5",
+        "quality_inspection": "MAT-QA-2026-00054",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtp6t87if",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.128766",
+        "modified": "2026-03-15 13:52:46.128766",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 8,
+        "item_code": "AD101",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD101",
+        "qty": 1.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eoo5e3mf9c",
+        "rm_qc_decision": "eonoihtvnl",
+        "quality_inspection": "MAT-QA-2026-00055",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqt56n51pj",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.129109",
+        "modified": "2026-03-15 13:52:46.129109",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 9,
+        "item_code": "AD102",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-AD102",
+        "qty": 1.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eon8dh2l9s",
+        "rm_qc_decision": "eonl4dgg27",
+        "quality_inspection": "MAT-QA-2026-00056",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtugnrocv",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.129451",
+        "modified": "2026-03-15 13:52:46.129451",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 10,
+        "item_code": "PC01",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PC01",
+        "qty": 0.012,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eonftkijv5",
+        "rm_qc_decision": "eonsctvjvu",
+        "quality_inspection": "MAT-QA-2026-00057",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqthbor28n",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.129799",
+        "modified": "2026-03-15 13:52:46.129799",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 11,
+        "item_code": "PR02",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PR02",
+        "qty": 0.002,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eon164pkoi",
+        "rm_qc_decision": "eonh9ivkqj",
+        "quality_inspection": "MAT-QA-2026-00058",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtmdsvbfj",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.130103",
+        "modified": "2026-03-15 13:52:46.130103",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 12,
+        "item_code": "PY02",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PY02",
+        "qty": 0.025,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eon2n9712i",
+        "rm_qc_decision": "eon04m1jue",
+        "quality_inspection": "MAT-QA-2026-00059",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      },
+      {
+        "name": "eqtnjmss9b",
+        "owner": "Administrator",
+        "creation": "2026-03-15 13:52:46.130386",
+        "modified": "2026-03-15 13:52:46.130386",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 13,
+        "item_code": "PT01",
+        "batch_no": "RM-phase2-complex-full-710C3091-20260315135236-PT01",
+        "qty": 4.0,
+        "source_warehouse": "Stores - CPPL",
+        "rm_release_note": "eonl3b1ipv",
+        "rm_qc_decision": "eont3vu3u6",
+        "quality_inspection": "MAT-QA-2026-00060",
+        "parent": "eqsps41g9v",
+        "parentfield": "rm_batches",
+        "parenttype": "Technical Assistance Ticket",
+        "doctype": "Complaint Traceability Item"
+      }
+    ],
+    "traceability_notes": "FG Batch: FG-phase2-complex-full-710C3091-20260315135236-710C3091\nWork Order: MFG-WO-2026-00008\nManufacture Stock Entry: MAT-STE-2026-00008\nFinal QC Release: ep78311ndm\nDelivery Note: MAT-DN-2026-00007\nDispatch Clearance: ep9u5a4kfn",
+    "trace_matches_builder": 1
+  },
+  "go_live_gaps": [
+    {
+      "type": "Permission",
+      "severity": "High",
+      "gap": "These transaction doctypes are readable only by admin roles and need business-role permissions: RM Inward Validation, RM QC Decision, RM Release Note, Material Readiness Check, Batch Production Record, Final QC Release, Dispatch Clearance, Technical Assistance Ticket"
+    },
+    {
+      "type": "Workflow",
+      "severity": "Medium",
+      "gap": "Complaint traceability is proven from Sales Invoice context through linked Delivery Note, but the live UI still starts the complaint from Delivery Note / FG batch rather than a direct Sales Invoice action."
+    }
+  ]
+}

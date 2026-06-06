@@ -1,0 +1,310 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\":\"quality-overview-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dashboard / Overview</b></span>\",\"col\":12}},{\"id\":\"quality-dashboard-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Dashboard\",\"col\":3}},{\"id\":\"quality-inspection-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection\",\"col\":3}},{\"id\":\"quality-inspection-parameter-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection Parameter\",\"col\":3}},{\"id\":\"quality-inspection-template-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection Template\",\"col\":3}},{\"id\":\"quality-rm-qc-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>RM Quality Control</b></span>\",\"col\":12}},{\"id\":\"quality-rm-testing-standard-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Testing Standard\",\"col\":4}},{\"id\":\"quality-rm-qc-decision-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM QC Decision\",\"col\":4}},{\"id\":\"quality-rm-release-note-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Release Note\",\"col\":4}},{\"id\":\"quality-fg-qc-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>FG Quality Control</b></span>\",\"col\":12}},{\"id\":\"quality-final-qc-release-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Final QC Release\",\"col\":6}},{\"id\":\"quality-batch-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Batch\",\"col\":6}},{\"id\":\"quality-reports-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quality Reports</b></span>\",\"col\":12}},{\"id\":\"quality-supplier-rejection-report-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier-wise RM Rejection Report\",\"col\":3}},{\"id\":\"quality-parameter-failure-report-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Parameter Failure Report\",\"col\":3}},{\"id\":\"quality-rejection-trend-report-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Rejection Trend Report\",\"col\":3}},{\"id\":\"quality-top-problematic-items-report-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Top Problematic RM Items Report\",\"col\":3}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "check-circle",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Quality",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Dashboard / Overview",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Dashboard",
+   "link_count": 0,
+   "link_to": "quality-dashboard",
+   "link_type": "Page",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Parameter",
+   "link_count": 0,
+   "link_to": "Quality Inspection Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Template",
+   "link_count": 0,
+   "link_to": "Quality Inspection Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RM Quality Control",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RM Testing Standard",
+   "link_count": 0,
+   "link_to": "RM Testing Standard",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RM QC Decision",
+   "link_count": 0,
+   "link_to": "RM QC Decision",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RM Release Note",
+   "link_count": 0,
+   "link_to": "RM Release Note",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FG Quality Control",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Final QC Release",
+   "link_count": 0,
+   "link_to": "Final QC Release",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Batch",
+   "link_count": 0,
+   "link_to": "Batch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Supplier-wise RM Rejection Report",
+   "link_count": 0,
+   "link_to": "Supplier-wise RM Rejection Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "RM Parameter Failure Report",
+   "link_count": 0,
+   "link_to": "RM Parameter Failure Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "RM Rejection Trend Report",
+   "link_count": 0,
+   "link_to": "RM Rejection Trend Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Top Problematic RM Items Report",
+   "link_count": 0,
+   "link_to": "Top Problematic RM Items Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Calco Quality",
+ "name": "Quality",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Quality Manager"
+  },
+  {
+   "role": "Quality User"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "blue",
+   "icon": "bar-chart-3",
+   "label": "Quality Dashboard",
+   "link_to": "quality-dashboard",
+   "type": "Page"
+  },
+  {
+   "color": "blue",
+   "doc_view": "List",
+   "icon": "check-circle",
+   "label": "Quality Inspection",
+   "link_to": "Quality Inspection",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "cyan",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "Quality Inspection Parameter",
+   "link_to": "Quality Inspection Parameter",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "cyan",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "Quality Inspection Template",
+   "link_to": "Quality Inspection Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "RM Testing Standard",
+   "link_to": "RM Testing Standard",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "icon": "shield",
+   "label": "RM QC Decision",
+   "link_to": "RM QC Decision",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "green",
+   "doc_view": "List",
+   "icon": "badge-check",
+   "label": "RM Release Note",
+   "link_to": "RM Release Note",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "green",
+   "doc_view": "List",
+   "icon": "check-check",
+   "label": "Final QC Release",
+   "link_to": "Final QC Release",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "blue",
+   "doc_view": "List",
+   "icon": "package",
+   "label": "Batch",
+   "link_to": "Batch",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "blue",
+   "icon": "bar-chart",
+   "label": "Supplier-wise RM Rejection Report",
+   "link_to": "Supplier-wise RM Rejection Report",
+   "type": "Report"
+  },
+  {
+   "color": "red",
+   "icon": "bar-chart-2",
+   "label": "RM Parameter Failure Report",
+   "link_to": "RM Parameter Failure Report",
+   "type": "Report"
+  },
+  {
+   "color": "orange",
+   "icon": "trending-up",
+   "label": "RM Rejection Trend Report",
+   "link_to": "RM Rejection Trend Report",
+   "type": "Report"
+  },
+  {
+   "color": "cyan",
+   "icon": "alert-triangle",
+   "label": "Top Problematic RM Items Report",
+   "link_to": "Top Problematic RM Items Report",
+   "type": "Report"
+  }
+ ],
+ "title": "Quality",
+ "type": "Workspace"
+}
