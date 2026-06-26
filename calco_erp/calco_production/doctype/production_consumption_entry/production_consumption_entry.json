@@ -1,0 +1,238 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "naming_series:",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "naming_series",
+    "posting_section",
+    "posting_datetime",
+    "user",
+    "company",
+    "warehouse",
+    "production_line",
+    "fg_section",
+    "fg_code",
+    "fg_batch_no",
+    "remarks",
+    "rm_section",
+    "items",
+    "traceability_section",
+    "stock_entry",
+    "legacy_rm_section",
+    "rm_code",
+    "rm_batch_no",
+    "rm_qty",
+    "challan_invoice_no",
+    "category"
+  ],
+  "fields": [
+    {
+      "default": "PCE-.YYYY.-",
+      "fieldname": "naming_series",
+      "fieldtype": "Data",
+      "hidden": 1,
+      "label": "Series"
+    },
+    {
+      "fieldname": "posting_section",
+      "fieldtype": "Section Break",
+      "label": "Posting Details"
+    },
+    {
+      "default": "Now",
+      "fieldname": "posting_datetime",
+      "fieldtype": "Datetime",
+      "in_list_view": 1,
+      "label": "Posting Date/Time",
+      "reqd": 1
+    },
+    {
+      "default": "__user",
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "User",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "hidden": 1,
+      "label": "Company",
+      "options": "Company",
+      "read_only": 1
+    },
+    {
+      "fieldname": "warehouse",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Warehouse / Location",
+      "options": "Warehouse",
+      "reqd": 1
+    },
+    {
+      "fieldname": "production_line",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Production Line",
+      "options": "Workstation",
+      "reqd": 1
+    },
+    {
+      "fieldname": "fg_section",
+      "fieldtype": "Section Break",
+      "label": "FG Traceability"
+    },
+    {
+      "fieldname": "fg_code",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "FG Code",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "fg_batch_no",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "FG Batch No",
+      "reqd": 1
+    },
+    {
+      "fieldname": "remarks",
+      "fieldtype": "Small Text",
+      "label": "Remarks"
+    },
+    {
+      "fieldname": "rm_section",
+      "fieldtype": "Section Break",
+      "label": "RM Consumption Rows"
+    },
+    {
+      "fieldname": "items",
+      "fieldtype": "Table",
+      "label": "RM Items",
+      "options": "Production Consumption RM Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "traceability_section",
+      "fieldtype": "Section Break",
+      "label": "Traceability"
+    },
+    {
+      "fieldname": "stock_entry",
+      "fieldtype": "Link",
+      "label": "Stock Entry",
+      "options": "Stock Entry",
+      "read_only": 1
+    },
+    {
+      "fieldname": "legacy_rm_section",
+      "fieldtype": "Section Break",
+      "hidden": 1,
+      "label": "Legacy Single RM Fields"
+    },
+    {
+      "fieldname": "rm_code",
+      "fieldtype": "Link",
+      "hidden": 1,
+      "label": "RM Code",
+      "options": "Item"
+    },
+    {
+      "fieldname": "rm_batch_no",
+      "fieldtype": "Link",
+      "hidden": 1,
+      "label": "RM Batch No",
+      "options": "Batch"
+    },
+    {
+      "fieldname": "rm_qty",
+      "fieldtype": "Float",
+      "hidden": 1,
+      "label": "RM Qty"
+    },
+    {
+      "fieldname": "challan_invoice_no",
+      "fieldtype": "Data",
+      "hidden": 1,
+      "label": "Challan / Invoice No"
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Data",
+      "hidden": 1,
+      "label": "Category"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "is_submittable": 1,
+  "links": [],
+  "module": "Calco Production",
+  "name": "Production Consumption Entry",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "submit": 1,
+      "write": 1,
+      "cancel": 1
+    },
+    {
+      "create": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Production Manager",
+      "submit": 1,
+      "write": 1,
+      "cancel": 1
+    },
+    {
+      "create": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Production Engineer",
+      "submit": 1,
+      "write": 1,
+      "cancel": 1
+    },
+    {
+      "read": 1,
+      "report": 1,
+      "role": "Production Head",
+      "cancel": 0
+    },
+    {
+      "create": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Stores User",
+      "submit": 1,
+      "write": 1,
+      "cancel": 1
+    }
+  ],
+  "quick_entry": 1,
+  "search_fields": "warehouse,fg_code,fg_batch_no,production_line,stock_entry,rm_code,rm_batch_no,challan_invoice_no,category",
+  "show_name_in_global_search": 1,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "title_field": "fg_batch_no"
+}

@@ -53,11 +53,29 @@
     }
   }
 
+
+  function loadProductionConsumptionScript() {
+    if (window.__productionConsumptionEntryLoaded) return;
+
+    window.__productionConsumptionEntryLoaded = true;
+    const script = document.createElement("script");
+    script.src = "/assets/calco_erp/js/production_consumption_entry.js?v=20260625_pce_rm_link_validated";
+    script.async = false;
+    document.head.appendChild(script);
+  }
+
+  function scheduleProductionConsumptionScriptLoad() {
+    loadProductionConsumptionScript();
+    if (!window.__productionConsumptionEntryLoaded) {
+      window.setTimeout(loadProductionConsumptionScript, 1000);
+    }
+  }
   function applyBranding() {
     scheduled = false;
     setFavicon();
     setDocumentTitle();
     brandLoginCard();
+    scheduleProductionConsumptionScriptLoad();
   }
 
   function scheduleApply() {

@@ -1,0 +1,74 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "rm_code",
+    "rm_batch_no",
+    "available_batch_qty",
+    "rm_qty_consumed",
+    "category",
+    "challan_invoice_no",
+    "remarks"
+  ],
+  "fields": [
+    {
+      "fieldname": "rm_code",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "RM Code",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "rm_batch_no",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "RM Batch No",
+      "options": null,
+      "reqd": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "available_batch_qty",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Available Batch Qty",
+      "precision": "3",
+      "read_only": 1
+    },
+    {
+      "fieldname": "rm_qty_consumed",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "RM Qty Consumed",
+      "precision": "3",
+      "reqd": 1
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Category"
+    },
+    {
+      "fieldname": "challan_invoice_no",
+      "fieldtype": "Data",
+      "label": "Challan / Invoice No"
+    },
+    {
+      "fieldname": "remarks",
+      "fieldtype": "Small Text",
+      "label": "Remarks"
+    }
+  ],
+  "istable": 1,
+  "links": [],
+  "module": "Calco Production",
+  "name": "Production Consumption RM Item",
+  "permissions": [],
+  "quick_entry": 1,
+  "sort_field": "idx",
+  "sort_order": "ASC"
+}

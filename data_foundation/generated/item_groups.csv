@@ -1,0 +1,22 @@
+item_group_name,parent_item_group,is_group
+Raw Material,All Item Groups,1
+Polymer,Raw Material,1
+Polymer PA,Polymer,0
+Polymer PBT,Polymer,0
+Polymer PE PP,Polymer,0
+Polymer PC,Polymer,0
+Polymer Styrene,Polymer,0
+Additive,Raw Material,0
+Pigment,Raw Material,0
+Mineral,Raw Material,0
+Glass Fibre,Raw Material,0
+Packing Material,Raw Material,0
+Unclassified RM,Raw Material,0
+Finished Good,All Item Groups,1
+PA6,Finished Good,0
+PA66,Finished Good,0
+PBT,Finished Good,0
+PP,Finished Good,0
+ABS,Finished Good,0
+Alloy,Finished Good,0
+Unclassified FG,Finished Good,0
