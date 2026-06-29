@@ -74,6 +74,11 @@ def ensure_workflow_action_masters():
 
 
 def ensure_rm_request_workflow():
+
+     if not frappe.db.exists("DocType", RM_REQUEST_DOCTYPE):
+        frappe.logger().warning(f"Skipping RM workflow: {RM_REQUEST_DOCTYPE} not found")
+        return 
+         
     states = [
         {"state": "Draft", "doc_status": 0, "allow_edit": TECHNICAL_ROLE},
         {"state": "Technical Review", "doc_status": 0, "allow_edit": TECHNICAL_ROLE},
@@ -124,6 +129,10 @@ def ensure_rm_request_workflow():
 
 
 def ensure_supplier_request_workflow():
+     if not frappe.db.exists("DocType", SUPPLIER_REQUEST_DOCTYPE):
+        frappe.logger().warning(f"Skipping Supplier workflow: {SUPPLIER_REQUEST_DOCTYPE} not found")
+        return
+         
     states = [
         {"state": "Draft", "doc_status": 0, "allow_edit": "Quality Manager"},
         {"state": "Quality Review", "doc_status": 0, "allow_edit": "Quality Manager"},
