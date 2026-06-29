@@ -436,16 +436,21 @@ def ensure_number_card(card_config):
         doc = frappe.new_doc("Number Card")
         doc.label = label
 
+    doctype = card_config.get("document_type")
+
+    # 🔥 IMPORTANT SAFETY CHECK
+    if not doctype or not frappe.db.exists("DocType", doctype):
+        return
+
     doc.module = card_config.get("module") or "Calco Maintenance"
     doc.type = "Document Type"
-    doc.document_type = card_config["document_type"]
+    doc.document_type = doctype
     doc.function = "Count"
     doc.is_public = 1
     doc.show_full_number = 1
     doc.filters_json = json.dumps(card_config.get("filters") or [])
     doc.dynamic_filters_json = json.dumps(card_config.get("dynamic_filters") or [])
     doc.save(ignore_permissions=True)
-
 
 def discover_workspace_definition_paths():
     mapping = {}
