@@ -412,6 +412,9 @@ def ensure_maintenance_number_cards():
     if not frappe.db.exists("DocType", "Number Card"):
         return
 
+    if not frappe.db.exists("DocType", "Maintenance Ticket"):
+        return
+
     for card in MAINTENANCE_NUMBER_CARDS:
         ensure_number_card(card)
 
